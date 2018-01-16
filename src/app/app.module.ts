@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SliderComponent } from './slider/slider.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SliderComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule
